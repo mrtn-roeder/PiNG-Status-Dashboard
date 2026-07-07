@@ -1,5 +1,7 @@
 # PiNG Status Dashboard
 
+![PiNG Dashboard Preview](screenshot.png)
+
 A lightweight, self-hosted dashboard to monitor the status, temperature, and load of your Raspberry Pi cluster, HomeLab devices, or any Linux server.
 
 It consists of a simple PHP backend and a bash script (`client.sh`) that runs on your devices via cronjob. No heavy database required – it uses simple JSON files!
