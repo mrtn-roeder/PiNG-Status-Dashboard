@@ -15,10 +15,9 @@ It consists of a simple PHP backend and a bash script (`client.sh`) that runs on
 * **Lightweight Agent:** Only requires `curl` and standard Linux tools (top, free, df).
 * **Alerting:** Sends an email notification if a device goes offline (and another when it recovers).
 * **Responsive Dashboard:** Clean UI to check your device stats at a glance.
-* * **Zero Setup:** The required `data/` directory is created automatically on the server as soon as the first device sends its ping.
+* **Zero Setup:** The required `data/` directory is created automatically on the server as soon as the first device sends its ping.
 
 ## Installation (Server / Dashboard)
-
 1. Upload the `.php` files to your web server (e.g., Apache, Nginx).
 2. Open `config.php` and set your own secure `PING_TOKEN` and your email addresses for alerts.
    * Set a secure `PING_TOKEN`.
