@@ -6,7 +6,7 @@ A lightweight, self-hosted dashboard to monitor the status, temperature, and loa
 
 It consists of a simple PHP backend and a bash script (`client.sh`) that runs on your devices via cronjob. No heavy database required – it uses simple JSON files!
 
-> **Vibe Coding:** This project was built entirely using "Vibe Coding" with Google Gemini.
+> **Vibe Coding:** This project was built with Google Gemini.
 
 > ** Note on Raspberry Pi:** The `client.sh` script is specifically optimized for Raspberry Pi OS. It uses the `vcgencmd` command to read the CPU temperature. It works on other Linux machines too, but the temperature reading will be blank unless you modify the `TEMP=` variable in the script (e.g., using `cat /sys/class/thermal/thermal_zone0/temp`).
 
